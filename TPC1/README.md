@@ -1,6 +1,6 @@
 # TPC1: Manipulação de Strings em Python
 
-Este projeto contém diversas funções para a **manipulação de strings** realizando alguns  **testes automáticos**.
+Este TPC contém diversas funções para a **manipulação de strings** realizando alguns  **testes automáticos**.
 
 ---
 
