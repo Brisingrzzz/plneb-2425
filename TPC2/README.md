@@ -1,6 +1,6 @@
-# TPC1: Manipulação de Strings em Python
+# TPC2: Expressões regulares em Python
 
-Este TPC contém diversas funções para a **manipulação de strings** realizando alguns **testes**.
+Este TPC contém diversas funções que utilizam **expressões regulares** realizando alguns **testes**.
 
 ---
 
