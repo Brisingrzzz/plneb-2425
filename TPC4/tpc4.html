@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>MK</title>
+        <script src="script.js" defer></script>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel = "icon" type = "image/png" href = "images/MK_icon.png">
+    </head>
+
+<body>
+    <header>
+        <h1>Mechanical Keyboards</h1>
+        <h4>A small introduction to the rabbit hole of Mechanical Keyboards</h4>
+    </header>
+
+    <main>
+        <div class = "header_image_container" id = "header_image_container">
+            <div class="header_image" id="header_image">
+                <img src="images/aaru_tkl.jpg" alt="AaruTKL">
+                <span style="color: white"><strong> There are several different designs for mechanical keyboards for different preferences, here we are going to talk about some specs to have in mind when building a custom mechanical keyboard. </strong></span>
+            </div>
+        </div>
+        <div class = "container" id = "main_container">
+            <div class = "gallery">
+                <div>
+                    <div class = "item" id = "layouts" onclick="changeText(id)">
+                        <span><strong>Layouts</strong></span>
+                    </div>
+                </div>
+                <div>
+                    <div class = "item" id = "form_factor" onclick="changeText(id)">
+                        <span><strong>Form Factor</strong></span>
+                    </div>
+                </div>
+                <div>
+                    <div class = "item" id = "keycaps" onclick="changeText(id)">
+                        <span><strong>Keycaps</strong></span>
+                    </div>
+                </div>
+                <div>
+                    <div class = "item" id = "switches" onclick="changeText(id)">
+                        <span><strong>Switches</strong></span>
+                    </div>
+                </div>
+                <div>
+                    <div class = "item" id = "materials" style="display: none" onclick="changeText(id)">
+                        <span><strong>Materials</strong></span>
+                    </div>
+                </div>
+                <div>
+                    <div class = "item" id = "cables" style="display: none" onclick="changeText(id)">
+                        <span><strong>Cables</strong></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class = "text_container">
+            <div id = "main_text" class = "main_text">
+            </div>
+        </div>
+
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
